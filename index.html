@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juan Pablo Rajoy</title>
+    <link rel="stylesheet" type="text/css" href="estilos.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#sobre_mi">Sobre Mí</a></li>
+                <li><a href="#educacion">Educación</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <button onclick="volverArriba()" id="botonArriba" title="Volver arriba">Volver arriba</button>
+        <section id="banner">
+            <img src="image/gitprogramer.gif" alt="banner">
+        </section>
+        <section id="sobre_mi">
+            <img src="image/IMG-20220813-WA0013.jpg" alt="foto_perfil">
+            <h2>Bienvenid@s</h2>
+            <br>
+            <p>Hola, mi nombre es Juan Pablo Rajoy, tengo 34 años y vivo en San Fernando - Buenos Aires. <br>
+                Soy estudiante
+                de la Tecnicatura Universitaria en Programacion, actualmente estoy en el segundo año, tengo conocimientos en
+                C++, C#, SQL Server, HTML, CSS y JS.<br>
+                En mis tiempo libre me gusta leer libros, escuchar musica, y pasar tiempo con amigos.
+            </p>
+        </section>
+        <section id="educacion">
+            <h2>Estudios</h2>
+            <ul>
+                <li>Polimodal en Ciencias Naturales - Escuela Normal Superior</li>
+                <li>Tecnicatura Superior Analista Programador - IFD Bella Vista </li>
+                <p>(estudio sin finalizar)</p>
+                <li>Tecnicatura Universitaria en Seguridad Maritima - IFOR AESU PNA</li>
+                <li>Tecnicatura Universitaria en Programacion - UTN FRGP</li>
+            </ul>
+            <h2>Lenguajes</h2>
+            <div id="contenedorLenguajes">
+                <div>
+                    <img src="image/C++.png" alt="">
+                </div>
+                <div>
+                    <img src="image/csharp-logo.png" alt="">
+                </div>
+                <div>
+                    <img src="image/sql server.png" alt="">
+                </div>
+                <div>
+                    <img src="image/html.png" alt="">
+                </div>
+                <div>
+                    <img src="image/css.png" alt="">
+                </div>
+                <div>
+                    <img src="image/logo-javascript-1024.png" alt="">
+                </div>
+            </div>
+        </section>
+        <section id="proyectos">
+            <h2>Proyectos</h2>
+            <div id="contenedorProyectos">
+                <div>
+                    <img src="image/IrwinRevenge.jpg" alt="Irwin Revenge">
+                    <p>Irwin - TP Laborario 1</p>
+                </div>
+                <div>
+                    <img src="image/galaxyRace.jpg" alt="Galaxy Race">
+                    <p>Galaxy Race - TP Laborario 2</p>
+                </div>
+                <div>
+                    <img src="image/gestionArticulos.png" alt="">
+                    <p>Gestion de Articulo - TP2 Programacion 3</p>
+                </div>
+                <div>
+                    <img src="image/portfolio.png" alt="Portfolio">
+                    <p>Portfolio - TP3 Programacion 3</p>
+                </div>
+                <div>
+                    <img src="image/construccion.gif" alt="en construccion">
+                    <p>Proyecto en construccion</p>
+                </div>
+                <div>
+                    <img src="image/construccion.gif" alt="en construccion">
+                    <p>Proyecto en construccion</p>
+                </div>
+                
+            </div>
+        </section>
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <div id="contenedorFormulario">
+                <div>
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre">
+                </div>
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email">
+                </div>
+                <div>
+                    <label for="telefono">Teléfono:</label>
+                    <input type="phone" id="telefono" name="telefono">
+                </div>
+                <div>
+                    <label for="mensaje">Consulta:</label>
+                    <textarea id="mensaje" name="mensaje"></textarea>
+                </div>  
+                <div>
+                    <button type="submit">Enviar</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer id="footer">
+        <div id="contenedorFooter">
+            <div>
+                <a href="https://www.facebook.com/juanpa.r.904" target="_blank">
+                    <img src="image/facebook.png" alt="facebook">
+                </a>
+                
+            </div>
+            <div>
+                <a href="https://www.linkedin.com/in/juan-pablo-rajoy/" target="_blank">
+                    <img src="image/linkedin (1).png" alt="likendin">
+                </a>
+            </div>
+           <div>
+                <a href="https://github.com/jpablo903/" target="_blank">
+                    <img src="image/github_PNG53.png" alt="github">
+                </a>
+           </div>
+            <div>
+                <a href="https://wa.me/+543777304248" target="_blank" rel="noopener">
+                    <img src="image/whatsapp.png" alt="whatsapp">
+                </a>
+            </div>
+        </div>
+        <p>© 2024 Derechos Reservados</p>
+    </footer>
+</body>
+</html>
