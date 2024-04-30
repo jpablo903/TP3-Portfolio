@@ -73,7 +73,9 @@
             <h2>Proyectos</h2>
             <div id="contenedorProyectos">
                 <div>
-                    <img src="image/IrwinRevenge.jpg" alt="Irwin Revenge">
+                    <a href="">
+                        <img src="image/IrwinRevenge.jpg" alt="Irwin Revenge">
+                    </a>
                     <p>Irwin Revenge - TP Laborario 1</p>
                 </div>
                 <div>
@@ -98,7 +100,7 @@
         <section id="contacto">
             <h2>Contacto</h2>
             <div id="contenedorFormulario">
-                <form action="https://formspree.io/f/mbjnwojz" method="post">
+                <form action="https://formspree.io/f/mbjnwojz" method="post" id="formularioDeContacto" onsubmit="return validarFormulario()">
                     <div>
                         <label for="nombre">Nombre:</label>
                         <input type="text" id="nombre" name="name">
