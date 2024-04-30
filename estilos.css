@@ -10,6 +10,210 @@
     font-family: 'SuperMario256';
     src: url('fuente/chlorinap/CHLORINP.TTF') format('truetype');
 }
+
+
+/*CUANDO ES MENOR A 750px*/
+
+@media only screen and (max-width: 750px) {
+
+    header {
+        display: flex;
+        justify-content: right;
+        align-items: center;
+        padding: 5px 10px;
+        background-color: #002b62;
+    }
+    
+
+    header li a {
+        display: block;
+        color: white;
+        font-family: AnonymousProRegular, sans-serif;
+        text-align: center;
+        padding: 7px 8px;
+        text-decoration: none;
+    }
+
+    /*Estilos de Seccion SOBRE MI*/
+    #sobre_mi{
+        justify-content: center;
+        background-color: #62657E;
+        text-align: center;  
+        padding: 50px; 
+    }
+    #sobre_mi p {
+        
+        text-align: justify;
+        width: 100%;
+        margin: auto;
+        line-height: 2.0;
+    }
+
+    /*Estilos de Seccion Educacion*/
+    #educacion{
+        justify-content: center;
+        text-align: center;
+        padding: 30px;
+        background-color: #002b62;
+    }
+
+    #educacion li {
+        justify-content: stretch;
+        text-align: left;
+        width: 90%;
+        margin: auto;
+        line-height: 3.0;
+        color: rgb(126, 141, 154);
+    }
+
+    #educacion p {
+        font-size: small;
+        text-align: left;
+        margin-left: 25%;
+        color: #b6bbf0;
+    }
+
+    /*Estilos de Seccion Proyectos*/
+    #proyectos{
+        justify-content: center;
+        text-align: center;
+        padding: 10px;
+        background-color: #62657E;
+    }
+
+    #contacto{
+        justify-content: center;
+        text-align: center;
+        padding: 10px;
+        background-color: #002b62;
+        color: #62657E;
+    }
+
+    #contenedorFormulario{
+        justify-content: center;
+        text-align: center;
+        width: 60%;
+        margin: auto;
+        border: 3px solid #62657E;
+        border-radius: 20px;
+        padding-top: 20px;
+        padding-left: 80px;
+        padding-right: 80px;
+        padding-bottom: 20px;
+    }
+
+    /*Estilos de Seccion Footer*/
+    #footer{
+        justify-content: center;
+        text-align: center;
+        padding: 70px;
+        background-color: #62657E;
+
+    }
+}
+
+/*CUANDO ES MAYOR A 750px*/
+
+@media only screen and (min-width: 750px) {
+
+    header {
+        display: flex;
+        justify-content: right;
+        align-items: center;
+        padding: 5px 25px;
+        background-color: #002b62;
+    }
+    
+
+    header li a {
+        display: block;
+        color: white;
+        font-family: AnonymousProRegular, sans-serif;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+    /*Estilos de Seccion SOBRE MI*/
+    #sobre_mi{
+        justify-content: center;
+        background-color: #62657E;
+        text-align: center;  
+        padding: 150px; 
+    }
+    #sobre_mi p {
+        
+        text-align: justify;
+        width: 500px;
+        margin: auto;
+        line-height: 2.0;
+    }
+
+    /*Estilos sobre Educacion*/
+    #educacion{
+        justify-content: center;
+        text-align: center;
+        padding: 150px;
+        background-color: #002b62;
+    }
+
+    #educacion li {
+        justify-content: stretch;
+        text-align: left;
+        width: 600px;
+        margin: auto;
+        line-height: 3.0;
+        color: rgb(126, 141, 154);
+    }
+
+    #educacion p {
+        width: 650px;
+        margin: auto;
+        font-size: small;
+        text-align: left;
+        margin-left: 25%;
+        color: #b6bbf0;
+    }
+
+    /*Estilos de Seccion Proyecto*/
+    #proyectos{
+        justify-content: center;
+        text-align: center;
+        padding: 150px;
+        background-color: #62657E;
+    }
+
+    #contacto{
+        justify-content: center;
+        text-align: center;
+        padding: 150px;
+        background-color: #002b62;
+        color: #62657E;
+    }
+
+    #contenedorFormulario{
+        justify-content: center;
+        text-align: center;
+        width: 40%;
+        margin: auto;
+        border: 3px solid #62657E;
+        border-radius: 20px;
+        padding-top: 20px;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-bottom: 20px;
+    }
+
+    /*Estilos de Seccion Footer*/
+    #footer{
+        justify-content: center;
+        text-align: center;
+        padding: 150px;
+        background-color: #62657E;
+
+    }
+}
+
 body{
     /*background-color: #002b62;*/
     font-family: AnonymousProBold;
@@ -36,13 +240,6 @@ body{
   }
 
 /*Estilos de cabezera - Menu de navegacion*/
-header {
-    display: flex;
-    justify-content: right;
-    align-items: center;
-    padding: 5px 25px;
-    background-color: #002b62;
-}
 
 header ul {
     list-style-type: none;
@@ -56,18 +253,12 @@ header li {
     margin-left: 5px;
 }
 
-header li a {
-    display: block;
-    color: white;
-    font-family: AnonymousProRegular, sans-serif;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
+
 
 header li a:hover {
     background-color: #07122e;
 }
+
 /*Estilos del Banner*/
 #banner{
     width: auto;
@@ -78,19 +269,11 @@ header li a:hover {
 }
 #banner img{
     width: 75%;
-    height: 80;
     margin: auto;
 }
 
 
 /*Estilos de Seccion SOBRE MI*/
-
-#sobre_mi{
-    justify-content: center;
-    background-color: #62657E;
-    text-align: center;  
-    padding: 150px; 
-}
 
 #sobre_mi img {
     width: 200px;
@@ -110,40 +293,12 @@ header li a:hover {
     margin-bottom: 20px; 
 }
 
-#sobre_mi p {
-    text-align: justify;
-    width: 50%;
-    margin: auto;
-    line-height: 2.0;
-}
 
-/*Estilos sobre Educacion*/
-#educacion{
-    justify-content: center;
-    text-align: center;
-    padding: 150px;
-    background-color: #002b62;
-}
 
 #educacion h2{
     margin-bottom: 20px;
     font-family: SuperMario256, sans-serif;
     letter-spacing: 10px;
-    color: #b6bbf0;
-}
-
-#educacion li {
-    justify-content: stretch;
-    text-align: left;
-    width: 50%;
-    margin: auto;
-    line-height: 3.0;
-    color: rgb(126, 141, 154);
-}
-#educacion p {
-    font-size: small;
-    text-align: left;
-    margin-left: 300px;
     color: #b6bbf0;
 }
 
@@ -167,12 +322,7 @@ header li a:hover {
 
 
 /*Estilos sobre Proyectos*/
-#proyectos{
-    justify-content: center;
-    text-align: center;
-    padding: 150px;
-    background-color: #62657E;
-}
+
 
 #proyectos h2{
     font-family: SuperMario256, sans-serif;
@@ -211,13 +361,7 @@ header li a:hover {
 
 
 /*Estilos sobre Contactos*/
-#contacto{
-    justify-content: center;
-    text-align: center;
-    padding: 150px;
-    background-color: #002b62;
-    color: #62657E;
-}
+
 
 #contacto h2{
     font-family: SuperMario256, sans-serif;
@@ -225,18 +369,7 @@ header li a:hover {
     margin-bottom: 50px;
 }
 
-#contenedorFormulario{
-    justify-content: center;
-    text-align: center;
-    width: 40%;
-    margin: auto;
-    border: 3px solid #62657E;
-    border-radius: 20px;
-    padding-top: 20px;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-bottom: 20px;
-}
+
 
 #contenedorFormulario div {
     display: flex;
@@ -279,13 +412,7 @@ header li a:hover {
 }
 
 /*Estilos Footer*/
-#footer{
-        justify-content: center;
-        text-align: center;
-        padding: 150px;
-        background-color: #62657E;
 
-}
 
 #contenedorFooter{
     display:flex;
