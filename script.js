@@ -40,18 +40,9 @@ function validarFormulario() {
     return false;
   }
 
-  localStorage.setItem('enviado', 'true');
-
   return true;
 }
 
 window.onload = function() {
-  if (localStorage.getItem('enviado') === 'true') {
       document.getElementById('formularioDeContacto').reset();
-      localStorage.removeItem('enviado');
-  }
-
-  document.getElementById('formularioDeContacto').addEventListener('submit', function() {
-    this.reset();
-  });
 };
