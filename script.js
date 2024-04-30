@@ -50,4 +50,8 @@ window.onload = function() {
       document.getElementById('formularioDeContacto').reset();
       localStorage.removeItem('enviado');
   }
+
+  document.getElementById('formularioDeContacto').addEventListener('submit', function() {
+    this.reset();
+  });
 };
