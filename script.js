@@ -49,5 +49,6 @@ function controlarMusica() {
 }
 
 window.onload = function() {
-      document.getElementById('formularioDeContacto').reset();
+    controlarMusica();
+    document.getElementById('formularioDeContacto').reset();
 };
