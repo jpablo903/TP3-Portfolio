@@ -45,10 +45,11 @@ function validarFormulario() {
 
 function controlarMusica() {
   var musica = document.getElementById("MarioBros");
-  if (musica.paused) musica.play();
+  if (musica.paused) {
+    musica.play();
+  }
 }
 
 window.onload = function() {
-    controlarMusica();
     document.getElementById('formularioDeContacto').reset();
 };
