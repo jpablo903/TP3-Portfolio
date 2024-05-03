@@ -43,6 +43,11 @@ function validarFormulario() {
   return true;
 }
 
+function controlarMusica() {
+  var musica = document.getElementById("MarioBros");
+  if (musica.paused) musica.play();
+}
+
 window.onload = function() {
       document.getElementById('formularioDeContacto').reset();
 };

@@ -9,13 +9,11 @@
     <script src="script.js"></script>
     <link rel="icon" href="image/video-game-play-toad-mushroom-mario_108577.ico" type="image/x-icon">
 </head>
-
 <body>
-         
     <header>
         <nav>
             <ul>
-                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#inicio" class="titileo" onclick="controlarMusica()">Inicio</a></li>
                 <li><a href="#sobre_mi">Sobre Mí</a></li>
                 <li><a href="#educacion">Educación</a></li>
                 <li><a href="#proyectos">Proyectos</a></li>
@@ -160,9 +158,9 @@
         </div>
         <p>© 2024 Derechos Reservados</p>
     </footer>
-    <audio autoplay loop>
+    <audio id="MarioBros" autoplay loop>
         <source src="music/01-main-theme-overworld.mp3" type="audio/mpeg">
-    </audio>
+    </audio>  
 </body>
 
 </html>

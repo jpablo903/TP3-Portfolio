@@ -11,7 +11,17 @@
     src: url('fuente/chlorinap/CHLORINP.TTF') format('truetype');
 }
 
-
+@keyframes titileo {
+    0% {opacity: 1;}
+    50% {opacity: 0;}
+    100% {opacity: 1;}
+  }
+  
+  .titileo {
+    color: gold;
+    animation: titileo 2s infinite;
+  }
+  
 /*CUANDO ES MENOR A 750px*/
 
 @media only screen and (max-width: 750px) {
