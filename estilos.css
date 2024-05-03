@@ -128,7 +128,23 @@
         text-align: center;
         padding: 30px;
         background-color: #62657E;
+    }
 
+    #confirmacionFormulario{
+        justify-content: center;
+        background-color: #62657E;
+        text-align: center;  
+        
+        padding: 250px 100px; 
+    }
+
+    #confirmacionFormulario button {       
+        text-align: center;
+        font-family: SuperMario256, sans-serif;
+        letter-spacing: 10px;
+        width: 150px;
+        padding: 5px;
+        margin: 50px 0px;
     }
 }
 
@@ -237,7 +253,22 @@
         text-align: center;
         padding: 150px;
         background-color: #62657E;
+    }
 
+    #confirmacionFormulario{
+        justify-content: center;
+        background-color: #62657E;
+        text-align: center;  
+        padding: 270px; 
+    }
+
+    #confirmacionFormulario button {       
+        text-align: center;
+        font-family: SuperMario256, sans-serif;
+        letter-spacing: 10px;
+        width: 200px;
+        padding: 5px;
+        margin: 50px 0px;
     }
 }
 
