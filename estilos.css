@@ -132,10 +132,9 @@
 
     #confirmacionFormulario{
         justify-content: center;
-        background-color: #62657E;
+        background-color: #f8fafc;
         text-align: center;  
-        
-        padding: 250px 100px; 
+        padding: 220px 50px; 
     }
 
     #confirmacionFormulario button {       
@@ -145,6 +144,28 @@
         width: 150px;
         padding: 5px;
         margin: 50px 0px;
+        border: none;
+        background-color: #4CAF50;
+        color: white;
+        cursor: pointer;
+    }
+
+    #confirmacionFormulario button:hover {
+        background-color: #45a049;
+    }
+
+    #tarjetaConfirmacion{
+        justify-content: center;
+        text-align: center;
+        width: 80%;
+        margin: auto;
+        background-color: #f2f2f2;
+        color:  #263f73;
+        border-radius: 20px;
+        padding-top: 20px;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-bottom: 20px;
     }
 }
 
@@ -255,11 +276,12 @@
         background-color: #62657E;
     }
 
+    /*Estilos confirmacion formulario*/
     #confirmacionFormulario{
         justify-content: center;
-        background-color: #62657E;
+        background-color: #f8fafc;
         text-align: center;  
-        padding: 270px; 
+        padding: 200px; 
     }
 
     #confirmacionFormulario button {       
@@ -269,6 +291,29 @@
         width: 200px;
         padding: 5px;
         margin: 50px 0px;
+        border: none;
+        background-color: #4CAF50;
+        color: white;
+        cursor: pointer;
+    }
+
+    #confirmacionFormulario button:hover {
+        background-color: #45a049;
+    }
+    
+
+    #tarjetaConfirmacion{
+        justify-content: center;
+        text-align: center;
+        width: 40%;
+        margin: auto;
+        background-color: #f2f2f2;
+        color:  #263f73;
+        border-radius: 20px;
+        padding-top: 20px;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-bottom: 20px;
     }
 }
 
